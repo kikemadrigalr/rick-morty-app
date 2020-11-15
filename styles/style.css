@@ -1,0 +1,43 @@
+:root {
+  --titles-text-color: #caccd1;
+}
+
+html {
+  box-sizing: border-box;
+  /* font-family: var(--main-font); */
+  /* font-size: var(--font-size); */
+  scroll-behavior: smooth;
+}
+
+/* todos los elementos heredan el box-sizing */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden; /*lo que se desborda en horizontal se oculta*/
+  background-color: #21618c;
+  /* color: var(--text-color); */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* header */
+header {
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.personajes h2 {
+  text-align: center;
+  color: var(--titles-text-color);
+}
